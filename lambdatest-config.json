@@ -1,6 +1,6 @@
 {
    "lambdatest_auth": {
-      "username": "<USERNAME>",
+      "username": "<YOUR_USERNAME>",
       "access_key": "<YOUR_ACCESSKEY>"
    },
    "browsers": [

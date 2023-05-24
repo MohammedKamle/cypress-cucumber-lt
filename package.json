@@ -6,7 +6,8 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:headless": "cypress run",
-    "httpServer": "http-server ./public"
+    "httpServer": "http-server ./public",
+    "cy:lambdatest": "lambdatest-cypress run "
   },
   "repository": {
     "type": "git",
