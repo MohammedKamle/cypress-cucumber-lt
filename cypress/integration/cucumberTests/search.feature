@@ -1,4 +1,4 @@
-Feature: BrowserStack Search
+Feature: Lambdatest Search
 
     Using DuckDuckGo
     I should be able to search for Lambdatest
