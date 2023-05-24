@@ -6,7 +6,6 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:headless": "cypress run",
-    "cy:browserstack": "browserstack-cypress run",
     "httpServer": "http-server ./public"
   },
   "repository": {
@@ -16,12 +15,11 @@
   "keywords": [
     "cypress",
     "cucumber",
-    "browserstack",
     "samples",
     "testing"
   ],
   "homepage": "https://github.com/ashwingonsalves/Cypress-Cucumber-Samples#readme",
-  "author": "Ashwin G",
+  "author": "Mohammed Kamle",
   "license": "ISC",
   "dependencies": {
     "cypress": "^9.7.0",
