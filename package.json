@@ -1,0 +1,34 @@
+{
+  "name": "cypress-cucumber-sample",
+  "version": "1.0.0",
+  "description": "Cypress Cucumber Samples",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:headless": "cypress run",
+    "cy:browserstack": "browserstack-cypress run",
+    "httpServer": "http-server ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwingonsalves/Cypress-Cucumber-Samples.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "browserstack",
+    "samples",
+    "testing"
+  ],
+  "homepage": "https://github.com/ashwingonsalves/Cypress-Cucumber-Samples#readme",
+  "author": "Ashwin G",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "http-server": "^14.1.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

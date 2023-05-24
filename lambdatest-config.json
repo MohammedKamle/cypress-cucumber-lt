@@ -1,0 +1,33 @@
+{
+   "lambdatest_auth": {
+      "username": "mohammadk",
+      "access_key": "rakcBoBYHiy8BW7osVi4N1LGYjgJhRfAwvL1pPUvwCA1wfNChd"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "cypress-cucumber",
+      "parallels": 10,
+      "specs": "cypress/integration/cucumberTests/*.feature",
+      "ignore_files": "",
+      
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "9.7.0",
+         "cypress-cucumber-preprocessor": "^4.3.1"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": true,
+      "tunnel_name": null
+   }
+}
