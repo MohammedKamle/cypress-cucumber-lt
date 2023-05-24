@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashwingonsalves/Cypress-Cucumber-Samples.git"
+    "url": "git+https://github.com/MohammedKamle/cypress-cucumber-lt"
   },
   "keywords": [
     "cypress",
@@ -19,7 +19,7 @@
     "samples",
     "testing"
   ],
-  "homepage": "https://github.com/ashwingonsalves/Cypress-Cucumber-Samples#readme",
+  "homepage": "https://github.com/MohammedKamle/cypress-cucumber-lt#readme",
   "author": "Mohammed Kamle",
   "license": "ISC",
   "dependencies": {
