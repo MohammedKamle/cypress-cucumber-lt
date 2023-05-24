@@ -1,7 +1,7 @@
-Feature: BrowserStack Local Testing
+Feature: Lambdatest Local Testing
 
-    Using BrowserStackLocal
-    I should be able to access my local URL on BrowserStack
+    Using LambdatestTunnel
+    I should be able to access my local URL on Lambdatest
 
     Scenario: Navigate to local URL
         Given I visit the local URL
